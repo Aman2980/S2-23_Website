@@ -21,7 +21,7 @@ li {
 }
 
 a {
-    color:  #CDD9E5;
+    color: #CDD9E5;
     text-decoration: none;
     font-weight: 600;
     font-size: 20px;
@@ -138,7 +138,7 @@ footer {
     font-size: 20px;
 }
 
-.heading{
+.heading {
     background: -webkit-linear-gradient(300deg, #93F5EC 20%, #A77BF3 70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -148,6 +148,7 @@ footer {
     width: 100%;
     transition: all 0.3s;
 }
+
 @media screen and (max-width: 600px) {
     .heading {
         margin-top: 10%;
