@@ -1,0 +1,130 @@
+.scroll-color {
+    transition: background-color 0.4s ease-in-out; /* set a transition for the background-color property */
+}
+
+/* set different background colors at different scroll positions */
+.scroll-color.active {
+    background-color: #000000;
+}
+
+body{
+    background: linear-gradient(141deg, #22272E 0%, #22272E 21%, #000000 75%);
+}
+
+.section1 {
+    position: relative;
+    height: 76vh;
+}
+
+
+.stars{
+    box-shadow: -10px 60px 70px rgb(0, 0, 0);
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    z-index: 0;
+    transition: all 0.25s;
+}
+
+@media (max-width: 800px) {
+    .stars {
+        height: 600px;
+    }
+
+    .intro {
+        margin-top: 10%;
+    }
+}
+
+@media (max-width: 700px) {
+    .stars {
+        height: 500px;
+    }
+    .intro {
+        margin-top: 10%;
+    }
+}
+
+@media (max-width: 600px) {
+    .stars {
+        height: 400px;
+    }
+    .intro {
+        margin-top: 10%;
+    }
+}
+
+
+.gameHeading {
+    position: absolute;
+    top: 25vh;
+    width: 100%;
+    text-align: center;
+    font-size: 6rem;
+    background: -webkit-linear-gradient(300deg, #93F5EC 20%, #A77BF3 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 1;
+    opacity: 0;
+    animation-name: slide-up;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide-up {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .gameHeading {
+        font-size: 2rem;
+    }
+}
+
+.section2 {
+    height: 200vh;
+}
+
+.intro {
+    margin-top: 30%;
+    padding: 60px;
+    font-size: 3rem;
+    text-align: center;
+    color: #ADBAC7;
+}
+
+
+
+.gameInfo {
+    margin-top: 10%;
+    text-align: justify;
+    text-justify: inter-character;
+    font-size: 1.5rem;
+    background: -webkit-linear-gradient(300deg, #93F5EC 20%, #A77BF3 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 2;
+    padding: 0 100px;
+}
+
+.homeMoney{
+    display: flex;
+    justify-content: center;
+}
+.money{
+    padding: 20px;
+    width: 800px;
+    height: 650px;
+}
+
+

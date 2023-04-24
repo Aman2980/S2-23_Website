@@ -1,0 +1,91 @@
+body{
+    background: linear-gradient(141deg, #22272E 0%, #22272E 21%, #000000 75%);
+}
+
+/* Members */
+.member {
+    float: left;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+/* Container */
+#container {
+    float: left;
+    margin-top: 10%;
+    width: 100%;
+}
+
+#container figure {
+    float: left;
+    height: 25vw;
+    width: 35vw;
+}
+
+#container img {
+    margin-top: 3%;
+    float: left;
+    width: 100%;
+    transition: all 0.3s;
+}
+
+#container aside {
+    color: white;
+    float: left;
+    width: 40%;
+}
+
+#container h1 {
+    font-size: 5vw;
+    margin: 6% 0 0;
+}
+
+
+#container p {
+    background: -webkit-linear-gradient(300deg, #93F5EC 20%, #A77BF3 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5vw;
+    line-height: 2;
+}
+
+
+.leftText {
+    text-align: left;
+    margin-left: 8%;
+}
+
+.leftImage {
+    margin-left: 8%;
+}
+
+.rightText {
+    margin-left: 8%;
+    margin-right: 5%;
+    text-align: right;
+}
+
+.rightImage {
+    margin-left: 7%;
+}
+
+.rightText h1 {
+    color: #ADBAC7;
+    text-transform: uppercase;
+}
+
+.leftText h1 {
+    color: #ADBAC7;
+    text-transform: uppercase;
+}
+
+.member img:hover {
+    box-shadow: 0 3px 10px rgba(173, 186, 199, 1);
+    transform: translateY(-20px);
+}
+
+
+
+
+
+

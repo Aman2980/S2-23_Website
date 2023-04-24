@@ -1,0 +1,171 @@
+body {
+    background: linear-gradient(141deg, #22272E 0%, #22272E 21%, #000000 75%);
+}
+
+.section1 {
+
+}
+
+#section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.monoMan {
+    margin-top: 10%;
+    width: 200px;
+    height: auto;
+    transition: all 0.7s;
+}
+
+.gameBoard {
+    margin-top: 10%;
+    border: 10px solid #333842;
+    max-width: 600px;
+    height: auto;
+    transition: all 0.7s;
+}
+
+@media (max-width: 768px) {
+    .monoMan {
+        display: none;
+    }
+
+    .gameBoard {
+        margin-top: 6%;
+        width: 80%;
+        border: none;
+        opacity: 1;
+    }
+}
+
+
+
+.heading {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 4rem;
+    background: -webkit-linear-gradient(300deg, #93F5EC 20%, #A77BF3 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-rendering: optimizeLegibility;
+}
+
+@media screen and (max-width: 600px) {
+    .heading {
+        margin-top: 10%;
+        font-size: 1.8rem;
+        transition: all 0.3s;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .heading {
+        font-size: 3rem;
+    }
+}
+
+
+.line-container {
+    position: relative;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    overflow: hidden;
+}
+
+.howTo {
+    top: 25px;
+    position: absolute;
+    color: #cbd4e0;
+    font-size: 6rem;
+    z-index: 2;
+    font-weight: bolder;
+}
+
+.line {
+    border-radius: 20%;
+    opacity: 0.4;
+    width: 90%;
+    height: 5px;
+    margin-bottom: 10px;
+    animation: move 2s ease-in-out infinite;
+}
+
+.line:nth-child(1) {
+    animation-delay: -0.4s;
+}
+
+.line:nth-child(2) {
+    animation-delay: -1.3s;
+}
+
+.line:nth-child(3) {
+    animation-delay: -1.25s;
+}
+
+.line:nth-child(4) {
+    animation-delay: -1s;
+}
+
+.line:nth-child(5) {
+    animation-delay: -0.75s;
+}
+
+.line:nth-child(6) {
+    animation-delay: -0.5s;
+}
+
+.line:nth-child(7) {
+    animation-delay: -0.25s;
+}
+
+.line:nth-child(9) {
+    animation-delay: -0.35s;
+}
+
+.line:nth-child(10) {
+    animation-delay: -0.75s;
+}
+
+.line:nth-child(11) {
+    animation-delay: -1s;
+}
+
+.line:nth-child(12) {
+    animation-delay: -1.5s;
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.imagesBack {
+    margin-bottom: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 20px;
+}
+
+.imagesBack .gameBoard {
+    width: 500px;
+    height: 500px;
+}
+
+
+
+
+
