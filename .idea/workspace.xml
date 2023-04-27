@@ -22,6 +22,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/aman/Desktop/S2-23_Website/assets/teamImages",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -49,6 +50,7 @@
       <workItem from="1682580369914" duration="739000" />
       <workItem from="1682597329880" duration="1480000" />
       <workItem from="1682619231197" duration="214000" />
+      <workItem from="1682619486377" duration="326000" />
     </task>
     <servers />
   </component>
