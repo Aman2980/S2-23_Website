@@ -37,42 +37,20 @@
         </nav>
     </div>
 </header>
-
-<div class="form">
-    <form action="mailto:aman.sghh81@gmail.com?subject=Order Sokoban" method="post" enctype="text/plain">
-        <label for="name">Name</label>
-        <input type="text" name="Name" placeholder="Your name.." required>
-        <label>Country</label>
-        <select name="Country">
-            <option>Belgium</option>
-            <option>France</option>
-            <option>Netherlands</option>
-            <option>Spain</option>
-            <option>Germany</option>
-            <option>Switzerland</option>
-            <option>Austria</option>
-            <option>Italy</option>
-            <option>US</option>
-            <option>UK</option>
-            <option>India</option>
-            <option>Morocco</option>
-            <option>Pakistan</option>
-            <option>Nepal</option>
-            <option>Other</option>
-        </select>
-        <label>Reason</label>
-        <select name="Reason">
-            <option>Order game</option>
-            <option>Other</option>
-        </select>
-        <label for="email">Email</label>
-        <input type="text" name="Email" placeholder="Your email address.." required>
-        <label for="subject">Message</label>
-        <textarea id="subject" name="Message" placeholder="Write something.." style="height:150px"></textarea>
-        <button class="form-btn" type="submit">Send</button>
+<div class="login-form">
+    <h2>Login</h2>
+    <form>
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required>
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        </div>
+        <button type="submit">Login</button>
     </form>
 </div>
-<img class="dice" src="/assets/screenshots/game/dice.png" alt="cat" width="100%" height="100%">
 <footer>
     <p> TEAM23 - ALL RIGHTS RESERVED</p>
 </footer>

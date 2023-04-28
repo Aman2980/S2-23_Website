@@ -1,80 +1,57 @@
-body {
-    height: 1000px;
-    background: linear-gradient(141deg, #22272E 0%, #22272E 21%, #000000 75%);
-}
 
-/* contact form */
-.form {
-    max-width: 550px;
-    border-radius: 5px;
-    background: #636D7B;
+
+body{
+    background: url("/assets/teamImages/aeroad.jpg");
+}
+.login-form {
+    max-width: 500px;
+    margin: 15rem auto;
     padding: 20px;
-    margin: 5% auto;
-    margin-bottom: 10%;
-    color: #ffffff;
-    font-weight: 800;
-    font-size: 24px;
-    transition: 1s;
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* send button in the form */
-.form-btn {
-    padding: 15px 50px;
-    background-color: #dc6767;
-    color: whitesmoke;
-    border: none;
-    border-radius: 15px;
+.login-form h2 {
     text-align: center;
-    box-shadow: 0 9px #999;
-    font-size: 15px;
+    margin-bottom: 20px;
 }
 
-.form-btn:hover {
-    background-color: rgb(115, 191, 0);
+.form-group {
+    margin-bottom: 20px;
 }
 
-.form-btn:active {
-    background-color: rgb(115, 191, 0);
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
 }
 
-/* styles the input and textarea */
-input[type=text], select, textarea {
+.form-group input {
     width: 100%;
-    padding: 12px;
-    border: .2px solid;
-    border-radius: 4px;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    background-color: #676767;
-    resize: none;
-    box-sizing: border-box;
-    color: whitesmoke;
-    font-size: 17px;
-
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #e6e6e6;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-@media screen and (max-width: 600px) {
-
-    .text {
-        list-style-position: inside;
-        line-height: 2;
-        text-align: center;
-        margin: 0 auto;
-        transition: 1s;
-        padding: 0 10px
-    }
-
-    .form {
-        width: 90%;
-        margin-bottom: 10%;
-    }
+.form-group input:focus {
+    outline: none;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
-.dice {
-    margin-top: 2px;
-    width: 55px;
-    height: 55px;
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #3e8e41;
 }
