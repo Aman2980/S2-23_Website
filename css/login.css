@@ -1,16 +1,30 @@
 
-
-body{
-    background: url("/assets/teamImages/aeroad.jpg");
+.login-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    min-height: 50rem;
 }
+
+.image-placeholder {
+    flex: 1;
+    height: 500px;
+    background-image: url("../assets/teamImages/aeroad.jpg");
+}
+
 .login-form {
+    flex: 1;
     max-width: 500px;
-    margin: 15rem auto;
     padding: 20px;
     background-color: #f5f5f5;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 20px; /* adjust the spacing between the image and the form */
 }
+
 
 .login-form h2 {
     text-align: center;
