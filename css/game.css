@@ -19,13 +19,6 @@ body {
     align-items: center;
 }
 
-.monoMan {
-    margin-top: 10%;
-    width: 300px;
-    height: auto;
-    transition: all 0.7s;
-}
-
 .gameBoard {
     margin-top: 10%;
     border: 10px solid #333842;
@@ -35,10 +28,6 @@ body {
 }
 
 @media (max-width: 768px) {
-    .monoMan {
-        display: none;
-    }
-
     .gameBoard {
         margin-top: 6%;
         width: 80%;
@@ -213,12 +202,25 @@ body {
 }
 
 .imagesBack {
-    margin: 15% 0;
+    margin-top: 15%;
+    margin-bottom: 8%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom .monoMan {
+    width: 400px;
+    height: auto;
+    transition: all 0.7s;
 }
 
 
