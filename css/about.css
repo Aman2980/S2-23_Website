@@ -5,7 +5,7 @@ body {
     color: #1b1c34;
 }
 
-.heading-below{
+.heading-below {
     color: #ADBAC7;
     font-size: 3rem;
     margin-top: 1.5%;
@@ -42,7 +42,7 @@ body {
     transition: all 0.3s;
 }
 
-.card:hover{
+.card:hover {
     box-shadow: 0 0 20px rgba(227, 235, 246, 0.3);
     transform: translateY(-30px);
 
