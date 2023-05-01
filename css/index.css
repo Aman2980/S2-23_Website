@@ -54,7 +54,7 @@
     /*background: -webkit-linear-gradient(300deg, #93F5EC 20%, #A77BF3 70%);*/
     /*-webkit-background-clip: text;*/
     /*-webkit-text-fill-color: transparent;*/
-    font-family: Georgia;
+    font-family: Malabar Pro Bold, serif;
     z-index: 1;
     opacity: 0;
     animation-name: slide-up;
