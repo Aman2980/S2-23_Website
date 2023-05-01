@@ -1,17 +1,5 @@
-body {
-    background: linear-gradient(141deg, #22272E 0%, #22272E 21%, #000000 75%);
-}
-
 .section1 {
 }
-
-/*clip-path: polygon(*/
-/*15% 0,*/
-/*100% 0,*/
-/*100% 85%,*/
-/*85% 100%,*/
-/*0 100%,*/
-/*0 15%)*/
 
 #section2 {
     display: flex;

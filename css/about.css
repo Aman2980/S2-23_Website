@@ -1,10 +1,3 @@
-body {
-    background: linear-gradient(141deg, #22272E 0%, #22272E 21%, #000000 75%);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-    width: 100%;
-    color: #1b1c34;
-}
-
 .heading-below {
     color: #ADBAC7;
     font-size: 3rem;

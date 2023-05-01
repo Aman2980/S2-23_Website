@@ -1,8 +1,3 @@
-body {
-    height: 1000px;
-    background: linear-gradient(141deg, #22272E 0%, #22272E 21%, #000000 75%);
-}
-
 /* styles the table and heading and then the data cells inside */
 table, th, td {
     margin: 10% 20%;
