@@ -14,21 +14,6 @@ window.onload = function () {
         navMenu.classList.remove("active");
     }));
 
-    // color changing code
-    // const scrollColor = document.querySelector('.scroll-color');
-    // const sectionHeight = scrollColor.offsetHeight / 19 ;
-    //
-    // window.addEventListener('scroll', () => {
-    //     let scrollPosition = window.scrollY;
-    //     if (scrollPosition > sectionHeight && scrollPosition <= sectionHeight * 2) {
-    //         scrollColor.classList.add('active');
-    //     } else if (scrollPosition <= sectionHeight) {
-    //         scrollColor.classList.remove('active');
-    //     }
-    //
-    // });
-
-
     // text animation
 
 }

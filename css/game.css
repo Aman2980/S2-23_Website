@@ -25,10 +25,13 @@ body {
     max-width: 600px;
     height: auto;
     transition: all 0.7s;
+    filter: drop-shadow(5px 5px 90px #3e8bb7);
 }
+
 
 @media (max-width: 768px) {
     .gameBoard {
+        filter: drop-shadow(5px 5px 30px #3e8bb7);
         margin-top: 6%;
         width: 80%;
         border: none;
@@ -64,6 +67,7 @@ body {
 
 
 .line-container {
+    /*filter: drop-shadow(5px 5px 100px #3e8bb7);*/
     position: relative;
     margin-top: 15%;
     display: flex;
@@ -221,7 +225,7 @@ body {
     width: 400px;
     height: auto;
     transition: all 0.7s;
-    filter: drop-shadow(5px 5px 10px #f5f5f5);
+    filter: drop-shadow(5px 5px 100px #3e8bb7);
 }
 
 
