@@ -12,18 +12,21 @@
     border: 10px solid #333842;
     max-width: 600px;
     height: auto;
-    transition: all 0.7s;
+    /*rotate: 45deg;*/
+    transition: all 1.5s;
     /*filter: drop-shadow(5px 5px 90px #3e8bb7);*/
 }
 
 .gameBoard:hover {
     filter: drop-shadow(5px 5px 90px #3e8bb7);
+    rotate: 360deg;
+    transition: all 3s;
+
 }
 
 
 @media (max-width: 768px) {
     .gameBoard {
-        filter: drop-shadow(5px 5px 30px #3e8bb7);
         margin-top: 6%;
         width: 80%;
         border: none;
