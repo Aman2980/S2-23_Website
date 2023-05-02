@@ -1,5 +1,5 @@
 .downloadSection {
-    margin-top: 100%;;
+    margin-top: 10%;;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -41,4 +41,23 @@
     width: 60px;
     height: 60px;
 }
+
+.video-wrapper {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.video {
+    /*display: flex;*/
+    /*align-items: center;*/
+    aspect-ratio: auto;
+    max-width: 80%;
+    height: 80%;
+    border-radius: 20px;
+    filter: drop-shadow(5px 5px 20px #192933);
+}
+
 

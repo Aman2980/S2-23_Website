@@ -17,11 +17,13 @@
     /*filter: drop-shadow(5px 5px 90px #3e8bb7);*/
 }
 
-.gameBoard:hover {
+.gameBoard:hover{
     filter: drop-shadow(5px 5px 90px #3e8bb7);
+}
+
+.gameBoard:hover {
     rotate: 360deg;
     transition: all 3s;
-
 }
 
 
