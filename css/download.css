@@ -26,12 +26,12 @@
 
 /* apply these color changes when hover over download button */
 .download-btn:hover {
-    background-color: #5d71c9;
+    background-color: #3e8bb7;
 }
 
 /* when button clicked, changed the shadow and move it y-axis by 4px */
 .download-btn:active {
-    background-color: #5d71c9;
+    background-color: #3e8bb7;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
