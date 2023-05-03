@@ -14,7 +14,14 @@ window.onload = function () {
         navMenu.classList.remove("active");
     }));
 
-    // text animation
 
+    // button sound animation
+    const button = document.querySelector('.download-btn');
+    const buttonSound = document.querySelector('#buttonSound');
+
+    button.addEventListener('click', () => {
+        buttonSound.currentTime = 0; // Reset the audio to the beginning
+        buttonSound.play();
+    });
 }
 
