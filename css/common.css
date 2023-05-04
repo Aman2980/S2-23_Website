@@ -160,8 +160,8 @@ footer {
     }
 }
 
-.logo {
-    margin-left: 1px;
+.logo{
+    /*margin-left: -4%;*/
     width: 60px;
     height: 60px;
 }
