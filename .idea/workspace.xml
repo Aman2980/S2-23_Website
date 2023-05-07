@@ -6,12 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="f760fb76-76ef-49c7-82dc-1a2535b94285" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/logo/My project copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/logo/My project.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/game.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/game.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/dynamicCode.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/dynamicCode.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,20 +26,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/aman/Desktop/S2-23_Website/assets/teamImages",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/aman/Desktop/S2-23_Website&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/teamImages" />
@@ -72,7 +72,14 @@
       <workItem from="1682954794310" duration="3186000" />
       <workItem from="1682959150505" duration="717000" />
       <workItem from="1683008515952" duration="26995000" />
-      <workItem from="1683195348815" duration="2902000" />
+      <workItem from="1683195348815" duration="3211000" />
+      <workItem from="1683268786223" duration="4384000" />
+      <workItem from="1683301181913" duration="1682000" />
+      <workItem from="1683303756447" duration="91000" />
+      <workItem from="1683304526194" duration="2318000" />
+      <workItem from="1683367765649" duration="615000" />
+      <workItem from="1683374227301" duration="15000" />
+      <workItem from="1683488508892" duration="1921000" />
     </task>
     <servers />
   </component>

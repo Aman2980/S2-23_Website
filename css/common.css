@@ -98,17 +98,17 @@ a {
     /*menu is off the screen and hidden until the user clicks on the hamburger menu*/
     /*The transition property adds a smooth animation effect to the menu sliding in and out*/
     .nav-menu {
-        /*margin-bottom: 20%;*/
         position: fixed;
         z-index: 999;
         left: -100%;
         top: 60px;
         gap: 0;
         flex-direction: column;
-        background-color: #2d333b;
+        background-color: #20262a;
         width: 100%;
         text-align: center;
         transition: 0.3s;
+        border-radius:  0 0  20px  20px;
     }
 
     .nav-item {
@@ -119,18 +119,9 @@ a {
     .nav-menu.active {
         left: 0;
     }
-
-    /*center the branding*/
-    .logo {
-        /*    text-align: center;*/
-        /*    flex-basis: 100%;*/
-    }
 }
 
 footer {
-    bottom: 0;
-    left: 0;
-    right: 0;
     display: flex;
     background-color: #2D333B;
     min-height: 5vh;

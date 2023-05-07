@@ -21,7 +21,7 @@ window.onload = function () {
 
     button.addEventListener('click', () => {
         buttonSound.currentTime = 0; // Reset the audio to the beginning
-        buttonSound.play();
+        buttonSound.play(); // Play ofc
     });
 }
 
