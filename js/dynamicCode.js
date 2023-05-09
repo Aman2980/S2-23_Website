@@ -27,11 +27,18 @@ window.onload = function () {
       // gameVideo
     const watchTrailerBtn = document.querySelector('.heroBtn:last-of-type');
     const gameVideo = document.getElementById('game-video');
+    const gameVideoSection = document.querySelector('.gameVideo');
 
     watchTrailerBtn.addEventListener('click', function() {
-        gameVideo.style.display = 'block';
-        gameVideo.play();
+        if (gameVideoSection.style.display === 'none') {
+            gameVideoSection.style.display = 'block';
+            gameVideo.play();
+        } else {
+            gameVideoSection.style.display = 'none';
+            gameVideo.pause();
+        }
     });
+
 
     const learnMoreBtn = document.querySelector('.heroBtn');
     learnMoreBtn.addEventListener('click', function() {

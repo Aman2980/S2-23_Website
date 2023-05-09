@@ -45,10 +45,11 @@
     height: 100vh;
 }
 
-.video {
-    /*display: flex;*/
-    /*align-items: center;*/
+.gameVideo{
     display: none;
+}
+
+.video {
     aspect-ratio: auto;
     max-width: 80%;
     height: 80%;
