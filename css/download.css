@@ -100,7 +100,7 @@
     left: 8vh;
     position: absolute;
     z-index: 1;
-    padding: 24px 34px;
+    padding: 24px 38px;
 }
 
 .heroBtn:nth-child(2) {
@@ -177,12 +177,12 @@
 
     .heroBtn:nth-child(1) {
         top: 65%;
-        left: 10%;
+        left: 8%;
     }
 
     .heroBtn:nth-child(2) {
         top: 65%;
-        left: 55%;
+        left: 53%;
     }
 }
 
