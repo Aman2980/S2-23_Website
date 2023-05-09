@@ -9,19 +9,29 @@ window.onload = function () {
         navMenu.classList.toggle("active");
     });
 
-    document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
-        hamburgerMenu.classList.remove("active");
-        navMenu.classList.remove("active");
-    }));
+    // document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
+    //     hamburgerMenu.classList.remove("active");
+    //     navMenu.classList.remove("active");
+    // }));
 
 
     // button sound animation
-    const button = document.querySelector('.download-btn');
+    const buttons = document.querySelector('.download-btn');
     const buttonSound = document.querySelector('#buttonSound');
 
-    button.addEventListener('click', () => {
-        buttonSound.currentTime = 0; // Reset the audio to the beginning
-        buttonSound.play(); // Play ofc
+      buttons.addEventListener('click', () => {
+        buttonSound.currentTime = 0;
+        buttonSound.play();
+      });
+
+      // gameVideo
+    const watchTrailerBtn = document.querySelector('.heroBtn:last-of-type');
+    const gameVideo = document.getElementById('game-video');
+
+    watchTrailerBtn.addEventListener('click', function() {
+        gameVideo.style.display = 'block';
+        gameVideo.play();
     });
+
 }
 

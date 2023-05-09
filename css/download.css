@@ -48,11 +48,65 @@
 .video {
     /*display: flex;*/
     /*align-items: center;*/
+    display: none;
     aspect-ratio: auto;
     max-width: 80%;
     height: 80%;
     border-radius: 20px;
     filter: drop-shadow(5px 5px 20px #192933);
+}
+
+.gameHeroImage {
+    position: relative;
+    height: 100vh;
+}
+
+.downloadMonoHero {
+    height: 728px;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.captionGame {
+    text-align: center;
+    left: 6vh;
+    top: 40vh;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    width: 30%;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+.heroBtn {
+    border-radius: 20px;
+    background-color: #A77BF3;
+    color: #93F5EC;
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+.heroBtn:hover {
+    background-color:  #93F5EC;
+    color: #A77BF3;
+}
+
+.heroBtn:nth-child(1) {
+    top: 70vh;
+    left: 8vh;
+    position: absolute;
+    z-index: 1;
+    padding: 24px 34px;
+}
+
+.heroBtn:nth-child(2) {
+    padding: 24px;
+    top: 70vh;
+    left: 35vh;
+    position: absolute;
+    z-index: 1;
 }
 
 
