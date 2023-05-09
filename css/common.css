@@ -56,7 +56,11 @@ a {
 
 .nav-link:hover {
     color: #a6b1b9;
+    border-bottom: 5px solid yellow;
+    padding-bottom: 12.2px;
+    border-radius: 10%;
 }
+
 
 .hamburger {
     display: none;
