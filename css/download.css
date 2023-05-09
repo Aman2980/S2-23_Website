@@ -45,7 +45,7 @@
     height: 100vh;
 }
 
-.gameVideo{
+.gameVideo {
     display: none;
 }
 
@@ -82,6 +82,7 @@
 }
 
 .heroBtn {
+    border-style: none;
     border-radius: 20px;
     background-color: #A77BF3;
     color: #93F5EC;
@@ -90,7 +91,7 @@
 }
 
 .heroBtn:hover {
-    background-color:  #93F5EC;
+    background-color: #93F5EC;
     color: #A77BF3;
 }
 
@@ -103,18 +104,18 @@
 }
 
 .heroBtn:nth-child(2) {
-    padding: 24px;
     top: 70vh;
     left: 35vh;
     position: absolute;
     z-index: 1;
+    padding: 24px 34px;
 }
 
 
 @media screen and (max-width: 1010px) {
 
     .captionGame {
-        top: 48%; /* Set the top to 50% of the parent container */
+        top: 75%; /* Set the top to 50% of the parent container */
         transform: translate(-50%, -50%); /* Center both horizontally and vertically */
         color: white;
         position: absolute;
@@ -127,6 +128,26 @@
     }
 
 
+    .downloadMonoHero {
+        height: auto;
+        width: 100%;
+    }
+
+    .heroBtn:nth-child(1) {
+        top: 90%;
+        left: 20%;
+    }
+
+    .heroBtn:nth-child(2) {
+        top: 90%;
+        left: 65%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .captionGame {
+        top: 65%;
+    }
 
     .downloadMonoHero {
         height: auto;
@@ -134,16 +155,36 @@
     }
 
     .heroBtn:nth-child(1) {
-        top: 64%;
-        left: 10%;
-        padding: 24px 34px;
+        top: 75%;
+        left: 18%;
     }
 
     .heroBtn:nth-child(2) {
-        padding: 24px;
-        top: 64%;
+        top: 75%;
+        left: 60%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .captionGame {
+        top: 48%;
+    }
+
+    .downloadMonoHero {
+        height: auto;
+        width: 100%;
+    }
+
+    .heroBtn:nth-child(1) {
+        top: 65%;
+        left: 10%;
+    }
+
+    .heroBtn:nth-child(2) {
+        top: 65%;
         left: 55%;
     }
 }
+
 
 
