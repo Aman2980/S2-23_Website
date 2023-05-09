@@ -33,5 +33,9 @@ window.onload = function () {
         gameVideo.play();
     });
 
+    const learnMoreBtn = document.querySelector('.heroBtn');
+    learnMoreBtn.addEventListener('click', function() {
+        window.location.href = 'game.html';
+    });
 }
 
