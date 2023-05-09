@@ -111,3 +111,39 @@
 }
 
 
+@media screen and (max-width: 1010px) {
+
+    .captionGame {
+        top: 48%; /* Set the top to 50% of the parent container */
+        transform: translate(-50%, -50%); /* Center both horizontally and vertically */
+        color: white;
+        position: absolute;
+        z-index: 1;
+        width: 80%;
+        font-size: 1.2em;
+        font-weight: normal;
+        text-align: center;
+        left: 50%;
+    }
+
+
+
+    .downloadMonoHero {
+        height: auto;
+        width: 100%;
+    }
+
+    .heroBtn:nth-child(1) {
+        top: 64%;
+        left: 10%;
+        padding: 24px 34px;
+    }
+
+    .heroBtn:nth-child(2) {
+        padding: 24px;
+        top: 64%;
+        left: 55%;
+    }
+}
+
+
