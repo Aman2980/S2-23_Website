@@ -36,7 +36,7 @@
 
 @media (min-width: 481px) and (max-width: 768px) {
     .gameHeading {
-        font-size: 3.5rem;
+        font-size: 3.3rem;
         transition: all 0.3s;
 
     }
@@ -50,7 +50,7 @@
     .gameHeading {
         font-size: 5rem;
         transition: all 0.3s;
-    }f
+    }
 }
 @media (min-width: 1025px) {
     .gameHeading {
