@@ -67,15 +67,13 @@ a {
 
 .nav-link:hover {
     color: #a6b1b9;
-    border-bottom: 5px solid yellow;
-    padding-bottom: 12.2px;
-    border-radius: 10%;
+    border-bottom: 5px solid rgba(69, 155, 210, 0.78);
+    padding-bottom: 12.5px;
 }
 
 .nav-link.active {
+    padding-bottom: 13px;
     border-bottom: 5px solid yellow;
-    border-radius: 10%;
-    padding-bottom: 12px;
 }
 
 
