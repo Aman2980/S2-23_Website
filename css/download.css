@@ -93,6 +93,7 @@
 .heroBtn:hover {
     background-color: #93F5EC;
     color: #A77BF3;
+    cursor: pointer;
 }
 
 .heroBtn:nth-child(1) {
