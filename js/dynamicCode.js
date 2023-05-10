@@ -16,20 +16,22 @@ window.onload = function () {
 
 
     // button sound animation
-    const buttons = document.querySelector('.download-btn');
+    const buttons = document.querySelectorAll('.download-btn');
     const buttonSound = document.querySelector('#buttonSound');
 
-      buttons.addEventListener('click', () => {
-        buttonSound.currentTime = 0;
-        buttonSound.play();
-      });
+    buttons.forEach(button => {
+        buttons.addEventListener('click', () => {
+            buttonSound.currentTime = 0;
+            buttonSound.play();
+        });
+    });
 
-      // gameVideo
+    // gameVideo
     const watchTrailerBtn = document.querySelector('.heroBtn:last-of-type');
     const gameVideo = document.getElementById('game-video');
     const gameVideoSection = document.querySelector('.gameVideo');
 
-    watchTrailerBtn.addEventListener('click', function() {
+    watchTrailerBtn.addEventListener('click', function () {
         if (gameVideoSection.style.display === 'none') {
             gameVideoSection.style.display = 'block';
             gameVideo.play();
@@ -41,7 +43,7 @@ window.onload = function () {
 
 
     const learnMoreBtn = document.querySelector('.heroBtn');
-    learnMoreBtn.addEventListener('click', function() {
+    learnMoreBtn.addEventListener('click', function () {
         window.location.href = 'game.html';
     });
 }
