@@ -20,7 +20,7 @@ window.onload = function () {
     const buttonSound = document.querySelector('#buttonSound');
 
     buttons.forEach(button => {
-        buttons.addEventListener('click', () => {
+        button.addEventListener('click', () => {
             buttonSound.currentTime = 0;
             buttonSound.play();
         });
@@ -32,6 +32,8 @@ window.onload = function () {
     const gameVideoSection = document.querySelector('.gameVideo');
 
     watchTrailerBtn.addEventListener('click', function () {
+        gameVideo.style.display = 'block';
+        gameVideo.play();
         if (gameVideoSection.style.display === 'none') {
             gameVideoSection.style.display = 'block';
             gameVideo.play();

@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f760fb76-76ef-49c7-82dc-1a2535b94285" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/dynamicCode.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/dynamicCode.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +26,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/aman/Desktop/S2-23_Website/assets/favicon",
+    "last_opened_file_path": "/Users/aman/Desktop/S2-23_Website/assets/gameVideo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -39,11 +37,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/gameVideo" />
       <recent name="$PROJECT_DIR$/assets/favicon" />
       <recent name="$PROJECT_DIR$/assets/screenshots/game" />
       <recent name="$PROJECT_DIR$/assets/teamImages" />
       <recent name="$PROJECT_DIR$/assets/logo" />
-      <recent name="$PROJECT_DIR$/assets/sound" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -80,7 +78,7 @@
       <workItem from="1683532311832" duration="2569000" />
       <workItem from="1683617971815" duration="70000" />
       <workItem from="1683618229746" duration="532000" />
-      <workItem from="1683647465752" duration="24911000" />
+      <workItem from="1683647465752" duration="26981000" />
     </task>
     <servers />
   </component>
