@@ -254,6 +254,13 @@
         color: #ADBAC7;
         font-size: 1.3rem;
     }
+
+    .bottom .monoMan {
+        width: 250px;
+        height: auto;
+        transition: all 0.7s;
+        filter: drop-shadow(5px 5px 100px #3e8bb7);
+    }
 }
 
 

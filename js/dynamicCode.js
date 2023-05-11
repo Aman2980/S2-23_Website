@@ -27,7 +27,7 @@ window.onload = function () {
     });
 
     // gameVideo
-    const watchTrailerBtn = document.querySelector('.heroBtn:last-of-type');
+    const watchTrailerBtn = document.querySelector('.heroBtn:nth-child(2)');
     const gameVideo = document.getElementById('game-video');
     const gameVideoSection = document.querySelector('.gameVideo');
 
@@ -49,4 +49,3 @@ window.onload = function () {
         window.location.href = 'game.html';
     });
 }
-
