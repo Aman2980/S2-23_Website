@@ -32,10 +32,9 @@ window.onload = function () {
     const gameVideoSection = document.querySelector('.gameVideo');
 
     watchTrailerBtn.addEventListener('click', function () {
-        gameVideo.style.display = 'block';
-        gameVideo.play();
         if (gameVideoSection.style.display === 'none') {
             gameVideoSection.style.display = 'block';
+            alert("video playing");
             gameVideo.play();
         } else {
             gameVideoSection.style.display = 'none';
@@ -43,9 +42,8 @@ window.onload = function () {
         }
     });
 
-
     const learnMoreBtn = document.querySelector('.heroBtn');
     learnMoreBtn.addEventListener('click', function () {
         window.location.href = 'game.html';
     });
-}
+};

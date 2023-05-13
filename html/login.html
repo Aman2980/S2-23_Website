@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
-    <link rel="stylesheet" type="text/css" href="/css/login.css">
-    <link rel="stylesheet" type="text/css" href="/css/common.css">
-    <script src="/js/dynamicCode.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/login.css">
+    <link rel="stylesheet" type="text/css" href="../css/common.css">
+    <script src="../js/dynamicCode.js"></script>
+    <script src="../js/login.js"></script>
 </head>
 <header>
     <div class="container">
         <nav class="navbar">
-            <a href="#" class="logo"><img class="logo" src="/assets/logo/logo5.png" alt="monopoly man image "></a>
+            <a href="#" class="logo"><img class="logo" src="../assets/logo/logo5.png" alt="monopoly man image "></a>
             <ul class="nav-menu">
                 <li class="nav-item">
                     <a href="../index.html" class="nav-link">Home</a>
@@ -35,21 +36,24 @@
 </header>
 <main>
     <div class="login-container">
-        <div class="login-form">
-            <h2>WELCOME</h2>
+        <fieldset class="login-form">
+            <legend><h2>WELCOME</h2></legend>
             <form>
                 <div class="form-group">
-                    <label for="username">Username</label>
+                    <label for="username">Username:</label>
                     <input type="text" id="username" name="username" placeholder="Enter your username" required>
                 </div>
                 <div class="form-group">
-                    <label for="password">Password</label>
+                    <label for="password">Password:</label>
                     <input type="password" id="password" name="password" placeholder="Enter your password" required>
                 </div>
-                <button type="submit">Login</button>
+                <div class="form-group">
+                    <button type="submit">Login</button>
+                </div>
             </form>
-        </div>
+        </fieldset>
     </div>
+
 </main>
 <footer>
     <p> TEAM23 - ALL RIGHTS RESERVED</p>
