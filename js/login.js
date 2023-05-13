@@ -20,7 +20,8 @@ form.addEventListener('submit', function (event) {
         passwordInput.classList.add('incorrect');
         const errorMessage = document.querySelector('.errorMessage')
         errorMessage.innerHTML = ('Incorrect password');
-        errorMessage.style.color=('white');
+        errorMessage.style.color=('red');
+        errorMessage.style.marginTop=('5px');
         console.log("error");
     }
     // Login successful, update the legend h2 with the username
@@ -34,6 +35,6 @@ form.addEventListener('submit', function (event) {
         if (errorMessage) {
             errorMessage.remove();
         }
-        // window.location.href= '../index.html';
+        window.location.href= '../html/Stats.html';
     }
 });
