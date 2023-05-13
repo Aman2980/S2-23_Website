@@ -34,7 +34,6 @@ window.onload = function () {
     watchTrailerBtn.addEventListener('click', function () {
         if (gameVideoSection.style.display === 'none') {
             gameVideoSection.style.display = 'block';
-            alert("video playing");
             gameVideo.play();
         } else {
             gameVideoSection.style.display = 'none';

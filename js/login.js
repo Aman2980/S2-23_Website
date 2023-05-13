@@ -17,13 +17,16 @@ window.onload = function () {
         // Check if the password is the reverse of the username
         if (password !== username.split('').reverse().join('')) {
             alert('Incorrect password. Please try again.');
-            console.log("error")
-
+            passwordInput.classList.remove('correct');
+            passwordInput.classList.add('incorrect');
+            console.log("error");
         }
         // Login successful, redirect to a home page
         else {
             alert('Login successful!');
-            window.location.href= '../index.html';
+            passwordInput.classList.remove('incorrect');
+            passwordInput.classList.add('correct');
+            // window.location.href= '../index.html';
         }
     });
 }

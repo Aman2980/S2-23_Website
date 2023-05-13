@@ -1,3 +1,6 @@
+body{
+    background: url("../assets/teamImages/can.jpg");
+}
 .login-container {
     display: flex;
     flex-direction: row;
@@ -36,7 +39,7 @@
 }
 
 .form-group input {
-    width: 100%;
+    width: 95%;
     padding: 10px;
     border-radius: 5px;
     border: none;
@@ -59,3 +62,12 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background-color: #3e8e41;
 }
+
+.form-group input.incorrect {
+    border: 2px solid red;
+}
+
+.form-group input.correct {
+    border: 2px solid green;
+}
+
