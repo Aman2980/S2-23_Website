@@ -1,3 +1,20 @@
+.aboutCaption {
+    color: #ADBAC7;
+    font-size: 1.6rem;
+    font-weight: normal;
+    text-align: justify;
+    text-justify: inter-character;
+    width: 90%;
+    margin: 5% auto;
+    transition: all 0.3s;
+}
+
+.word{
+    background: -webkit-linear-gradient(300deg, #93F5EC 20%, #A77BF3 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .heading-below {
     color: #ADBAC7;
     font-size: 3rem;
@@ -102,6 +119,8 @@
         font-size: 30px;
     }
 }
+
+
 
 
 

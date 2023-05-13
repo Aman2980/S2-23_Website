@@ -20,21 +20,28 @@ form.addEventListener('submit', function (event) {
         passwordInput.classList.add('incorrect');
         const errorMessage = document.querySelector('.errorMessage')
         errorMessage.innerHTML = ('Incorrect password');
-        errorMessage.style.color=('red');
-        errorMessage.style.marginTop=('5px');
+        errorMessage.style.color = ('red');
+        errorMessage.style.marginTop = ('5px');
         console.log("error");
     }
     // Login successful, update the legend h2 with the username
     else {
         const legend = document.querySelector('legend h2');
         legend.textContent = `WELCOME ${username}`.toUpperCase();
-        // alert('Login successful!');
+// alert('Login successful!');
         passwordInput.classList.remove('incorrect');
         passwordInput.classList.add('correct');
         const errorMessage = document.querySelector('.errorMessage')
         if (errorMessage) {
             errorMessage.remove();
         }
-        window.location.href= '../html/Stats.html';
+        const loading = document.querySelector('.wave')
+        loading.style.visibility = 'visible';
+        setTimeout(() => {
+            loading.style.visibility = 'hidden';
+            window.location.href = '../html/Stats.html';
+        }, 2000);
     }
 });
+
+
