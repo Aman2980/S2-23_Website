@@ -31,7 +31,18 @@
     animation-fill-mode: forwards;
 }
 
+@media (min-width: 281px) and (max-width: 481px) {
+    .gameHeading {
+        font-size: 3rem;
+        transition: all 0.3s;
 
+    }
+
+    .gameInfo {
+        padding: 0 40px;
+    }
+
+}
 
 @media (min-width: 481px) and (max-width: 768px) {
     .gameHeading {

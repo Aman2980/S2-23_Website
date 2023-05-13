@@ -63,6 +63,10 @@ button[type="submit"]:hover {
     background-color: #3e8e41;
 }
 
+.form-group input.hidden {
+    border: 2px solid transparent;
+}
+
 .form-group input.incorrect {
     border: 2px solid red;
 }
