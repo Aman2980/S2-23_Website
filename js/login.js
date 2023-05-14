@@ -49,10 +49,10 @@ form.addEventListener('submit', function (event) {
 
 
         // Retrieve the username from session storage
-        const username = sessionStorage.getItem('username');
+        const loggedInUsername = sessionStorage.getItem('username');
 
         // If the username exists, display it in the greeting
-        if (username) {
+        if (loggedInUsername) {
             const usernameSpan = document.querySelector('#username');
             usernameSpan.textContent = username;
         }
