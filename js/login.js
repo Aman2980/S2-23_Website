@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.querySelector('form');
     form.addEventListener('submit', handleSubmit);
-    const username = localStorage.getItem('username');
+    const username = sessionStorage.getItem('username');
     if (username) {
         const legend = document.querySelector('legend h2');
         if (legend) {
@@ -59,7 +59,7 @@ function handleSuccessfulLogin(username, passwordInput) {
     }
     passwordInput.classList.remove('incorrect');
     passwordInput.classList.add('correct');
-    localStorage.setItem('username', username);
+    sessionStorage.setItem('username', username);
     removeErrorMessage();
     showLoadingIndicator();
     setTimeout(() => {
