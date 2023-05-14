@@ -31,6 +31,9 @@ form.addEventListener('submit', function (event) {
 // alert('Login successful!');
         passwordInput.classList.remove('incorrect');
         passwordInput.classList.add('correct');
+        // Store the username in session storage
+        sessionStorage.setItem('username', username);
+
         const errorMessage = document.querySelector('.errorMessage')
         if (errorMessage) {
             errorMessage.remove();
@@ -41,6 +44,19 @@ form.addEventListener('submit', function (event) {
             loading.style.visibility = 'hidden';
             window.location.href = '../html/Stats.html';
         }, 2000);
+        // const navLink = document.querySelector('.nav-link:nth-child(4)');
+        // navLink.textContent = 'Logout';
+
+
+        // Retrieve the username from session storage
+        const username = sessionStorage.getItem('username');
+
+        // If the username exists, display it in the greeting
+        if (username) {
+            const usernameSpan = document.querySelector('#username');
+            usernameSpan.textContent = username;
+        }
+
     }
 });
 

@@ -1,6 +1,3 @@
-body{
-    background: url("../assets/teamImages/can.jpg");
-}
 .login-container {
     display: flex;
     flex-direction: row;
