@@ -1,3 +1,10 @@
+document.addEventListener('DOMContentLoaded', function() {
+    addResponsiveNavbar();
+    addButtonSoundAnimation();
+    addGameVideoHandlers();
+    addLearnMoreHandler();
+});
+
 function addResponsiveNavbar() {
     const hamburgerMenu = document.querySelector(".hamburger");
     const navMenu = document.querySelector(".nav-menu");
@@ -43,9 +50,3 @@ function addLearnMoreHandler() {
     });
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-    addResponsiveNavbar();
-    addButtonSoundAnimation();
-    addGameVideoHandlers();
-    addLearnMoreHandler();
-});

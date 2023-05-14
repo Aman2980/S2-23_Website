@@ -2,6 +2,14 @@
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.querySelector('form');
     form.addEventListener('submit', handleSubmit);
+    const username = localStorage.getItem('username');
+    if (username) {
+        const legend = document.querySelector('legend h2');
+        if (legend) {
+            legend.textContent = `WELCOME ${username}`.toUpperCase();
+        }
+    }
+
 });
 
 function handleSubmit(event) {
