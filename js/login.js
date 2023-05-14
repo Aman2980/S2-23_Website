@@ -1,15 +1,18 @@
-
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.querySelector('form');
     form.addEventListener('submit', handleSubmit);
     const username = sessionStorage.getItem('username');
+    const loginButton = document.querySelector('button[type="submit"]');
+    const logoutButton = document.createElement('button');
+    logoutButton.textContent = 'Logout';
+    logoutButton.addEventListener('click', handleLogout);
     if (username) {
         const legend = document.querySelector('legend h2');
         if (legend) {
             legend.textContent = `WELCOME ${username}`.toUpperCase();
         }
+        loginButton.replaceWith(logoutButton);
     }
-
 });
 
 function handleSubmit(event) {
@@ -62,10 +65,24 @@ function handleSuccessfulLogin(username, passwordInput) {
     sessionStorage.setItem('username', username);
     removeErrorMessage();
     showLoadingIndicator();
+    const logoutButton = document.createElement('button');
+    logoutButton.textContent = 'Logout';
+    logoutButton.addEventListener('click', handleLogout);
+    const loginButton = document.querySelector('button[type="submit"]');
+    loginButton.replaceWith(logoutButton);
     setTimeout(() => {
         hideLoadingIndicator();
         window.location.href = '../html/Stats.html';
     }, 2000);
+}
+
+function handleLogout() {
+    sessionStorage.removeItem('username');
+    location.reload();
+    // const formLabel = document.querySelectorAll('.form-group label');
+    // formLabel.style.visibility='visible';
+    // const formInput = document.querySelectorAll('.form-group input');
+    // formInput.style.visibility='visible';
 }
 
 function removeErrorMessage() {
