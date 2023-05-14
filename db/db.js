@@ -26946,3 +26946,5 @@ export const gamesJson = [
     "location": 8
   }
 ]
+export default class data {
+}

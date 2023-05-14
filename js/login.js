@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.querySelector('form');
     form.addEventListener('submit', function(event) {
@@ -30,11 +31,11 @@ document.addEventListener('DOMContentLoaded', function() {
             passwordInput.classList.remove('incorrect');
             passwordInput.classList.add('correct');
             localStorage.setItem('username', username);
-            const loggedInUsername = localStorage.getItem('username');
-            if (loggedInUsername) {
-                const usernameSpan = document.querySelector('.username');
-                usernameSpan.textContent = `Welcome ${loggedInUsername}`.toUpperCase();
-            }
+            // const loggedInUsername = localStorage.getItem('username');
+            // if (loggedInUsername) {
+            //     const usernameSpan = document.querySelector('.username');
+            //     usernameSpan.textContent = `Welcome ${loggedInUsername}`.toUpperCase();
+            // }
             const errorMessage = document.querySelector('.errorMessage')
             if (errorMessage) {
                 errorMessage.remove();
