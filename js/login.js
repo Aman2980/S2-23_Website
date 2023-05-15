@@ -55,9 +55,6 @@ function displayPasswordError() {
     console.log('error');
 }
 
-// This one finds the adding and updates the innertext to the heading with the username and if it doesnt find it, it creates that element
-
-
 function handleSuccessfulLogin(username, passwordInput) {
     const legend = document.querySelector('legend h2');
     if (legend) {
@@ -76,50 +73,9 @@ function handleSuccessfulLogin(username, passwordInput) {
     setTimeout(() => {
         hideLoadingIndicator();
         window.location.href = '../html/Stats.html';
-        if (username) {
-            const headingWelcome = document.querySelector('.headingWelcome');
-            if (!headingWelcome) {
-                const main = document.querySelector('main');
-                const newHeadingWelcome = document.createElement('h2');
-                newHeadingWelcome.classList.add('headingWelcome');
-                newHeadingWelcome.textContent = `WELCOME ${username}`;
-                main.insertBefore(newHeadingWelcome, main.firstChild);
-            } else {
-                headingWelcome.textContent = `WELCOME ${username}`;
-            }
-        } else {
-            console.log("User not found");
-        }
     }, 2000);
 }
-// This one finds the adding and updates the innertext to the heading with the username
 
-// function handleSuccessfulLogin(username, passwordInput) {
-//     const legend = document.querySelector('legend h2');
-//     if (legend) {
-//         legend.textContent = `WELCOME ${username}`.toUpperCase();
-//     }
-//     passwordInput.classList.remove('incorrect');
-//     passwordInput.classList.add('correct');
-//     sessionStorage.setItem('username', username);
-//     removeErrorMessage();
-//     showLoadingIndicator();
-//     const logoutButton = document.createElement('button');
-//     logoutButton.textContent = 'Logout';
-//     logoutButton.addEventListener('click', handleLogout);
-//     const loginButton = document.querySelector('button[type="submit"]');
-//     loginButton.replaceWith(logoutButton);
-//     setTimeout(() => {
-//         hideLoadingIndicator();
-//         window.location.href = '../html/Stats.html';
-//         if (username) {
-//             const headingWelcome = document.querySelector('.headingWelcome')
-//             headingWelcome.innerHTML = `WELCOME ${username}`;
-//         } else {
-//             console.log("User not found");
-//         }
-//     }, 2000);
-// }
 
 
 function handleLogout() {
