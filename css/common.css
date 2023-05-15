@@ -67,13 +67,15 @@ a {
 
 .nav-link:hover {
     color: #a6b1b9;
-    border-bottom: 5px solid rgb(167, 123, 243);
+    border-bottom: 5px solid #93F5EC;
     padding-bottom: 12.5px;
 }
 
 .nav-link.active {
-    padding-bottom: 13px;
-    border-bottom: 5px solid #93F5EC;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #FFF;
+    background-color: #A77BF3;
 }
 
 /*.nav-link.stats {*/
