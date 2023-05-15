@@ -1,10 +1,10 @@
-.username {
-    margin-bottom: 20%;
+.headingWelcome {
+    font-size: 6rem;
     background: -webkit-linear-gradient(300deg, #93F5EC 20%, #A77BF3 70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 6rem;
     text-align: center;
+
 }
 
 .table{
