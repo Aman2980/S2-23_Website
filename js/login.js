@@ -6,14 +6,21 @@ document.addEventListener('DOMContentLoaded', function () {
     const logoutButton = document.createElement('button');
     logoutButton.textContent = 'Logout';
     logoutButton.addEventListener('click', handleLogout);
+    const statsNavItem = document.querySelector('.nav-link.stats'); // Select the stats navigation item
+
     if (username) {
         const legend = document.querySelector('legend h2');
         if (legend) {
             legend.textContent = `WELCOME ${username}`.toUpperCase();
         }
         loginButton.replaceWith(logoutButton);
+        statsNavItem.style.visibility = 'visible'; // Make the stats navigation item visible
+    } else {
+        statsNavItem.style.visibility = 'hidden'; // Hide the stats navigation item
     }
 });
+
+
 
 function handleSubmit(event) {
     event.preventDefault(); // prevent form submission
@@ -54,7 +61,6 @@ function displayPasswordError() {
     errorMessage.style.marginTop = '5px';
     console.log('error');
 }
-
 function handleSuccessfulLogin(username, passwordInput) {
     const legend = document.querySelector('legend h2');
     if (legend) {
@@ -75,7 +81,6 @@ function handleSuccessfulLogin(username, passwordInput) {
         window.location.href = '../html/Stats.html';
     }, 2000);
 }
-
 
 
 function handleLogout() {
@@ -103,3 +108,4 @@ function hideLoadingIndicator() {
     const loading = document.querySelector('.wave');
     loading.style.visibility = 'hidden';
 }
+

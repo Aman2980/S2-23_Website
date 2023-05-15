@@ -73,10 +73,16 @@ a {
 
 .nav-link.active {
     border-radius: 20px;
-    padding: 10px 20px;
+    padding: 7px 20px;
     color: #FFF;
     background-color: #A77BF3;
 }
+
+.nav-link.stats{
+    visibility: hidden;
+}
+
+
 
 /*.nav-link.stats {*/
 /*    display: none;*/
