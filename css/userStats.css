@@ -1,10 +1,21 @@
 .headingWelcome {
-    font-size: 6rem;
     background: -webkit-linear-gradient(300deg, #93F5EC 20%, #A77BF3 70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 4rem;
+    margin-top: 4%;
     text-align: center;
+    width: 100%;
+    transition: all 0.3s;
+}
 
+
+@media screen and (max-width: 600px) {
+    .headingWelcome {
+        margin-top: 10%;
+        font-size: 3rem;
+        transition: all 0.3s;
+    }
 }
 
 .table{

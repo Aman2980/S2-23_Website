@@ -76,6 +76,10 @@ a {
     border-bottom: 5px solid #93F5EC;
 }
 
+/*.nav-link.stats {*/
+/*    display: none;*/
+/*}*/
+
 
 .hamburger {
     display: none;
