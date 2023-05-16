@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
     } else {
         statsNavItem.style.visibility = 'hidden'; // Hide the stats navigation item
     }
+
 });
 
 
@@ -70,6 +71,8 @@ function handleSuccessfulLogin(username, passwordInput) {
     passwordInput.classList.add('correct');
     sessionStorage.setItem('username', username);
     removeErrorMessage();
+    const monoMom = document.querySelector('.monoMan');
+    monoMom.style.visibility='visible';
     showLoadingIndicator();
     const logoutButton = document.createElement('button');
     logoutButton.textContent = 'Logout';

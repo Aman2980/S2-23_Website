@@ -107,6 +107,7 @@ button:hover {
 }
 
 .monoMan {
+    visibility: hidden;
     margin-left: 25%;
     width: 400px;
     height: auto;
