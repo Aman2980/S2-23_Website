@@ -60,6 +60,8 @@
 .gameHeroImage {
     position: relative;
     height: 100vh;
+    /*height: auto;*/
+    width: 100%;
 }
 
 .downloadMonoHero {
