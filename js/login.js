@@ -86,6 +86,10 @@ function handleSuccessfulLogin(username, passwordInput) {
 function handleLogout() {
     sessionStorage.removeItem('username');
     location.reload();
+    setTimeout(() => {
+        showLoadingIndicator();
+        window.location.href = '../index.html';
+    }, 2000);
     // const formLabel = document.querySelectorAll('.form-group label');
     // formLabel.style.visibility='visible';
     // const formInput = document.querySelectorAll('.form-group input');
