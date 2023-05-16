@@ -105,6 +105,7 @@
     .section1{
         height: 70vh;
     }
+
 }
 
 
@@ -120,7 +121,7 @@
 }
 
 .section2 {
-    height: 210vh;
+    height: 150vh;
 }
 
 
@@ -151,6 +152,20 @@
         line-height: 1.5;
         padding: 0 30px;
     }
+}
+
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom .monoMan {
+    width: 400px;
+    height: auto;
+    transition: all 0.7s;
+    filter: drop-shadow(5px 5px 100px #3e8bb7);
 }
 
 
