@@ -1,15 +1,23 @@
-.section1 {
-    position: relative;
-    height: 76vh;
+main {
+    width: 100%;
 }
 
-.heroImage {
-    position: absolute;
+.section1 {
+    background-image: url(assets/screenshots/game/GameBG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
     width: 100%;
-    height: auto;
-    z-index: 0;
-    transition: all 0.25s;
 }
+
+/*.heroImage {*/
+/*    position: absolute;*/
+/*    width: 100%;*/
+/*    height: auto;*/
+/*    z-index: 0;*/
+/*    transition: all 0.25s;*/
+/*}*/
 
 .gameHeading {
     position: absolute;
@@ -121,7 +129,8 @@
 }
 
 .section2 {
-    height: 150vh;
+    width: 100%;
+    position: relative;
 }
 
 

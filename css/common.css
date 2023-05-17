@@ -146,8 +146,9 @@ a {
 }
 
 footer {
-/*margin-top: 100%;*/
+    width: 100%;
     display: flex;
+    position: relative;
     background-color: #2D333B;
     min-height: 5vh;
     align-items: center;
