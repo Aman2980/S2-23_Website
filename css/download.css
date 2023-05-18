@@ -1,8 +1,6 @@
 .downloadSection {
-    margin-top: 10%;;
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     align-items: center;
 }
 
@@ -10,6 +8,13 @@
     margin: 4% 4%;
     color: #cbcbcb;
     font-size: 20px;
+}
+
+.downloadContainer {
+    display: flex;
+    width: 40%;
+    border-radius: 20px;
+    border: 5px solid #6c5ce7;
 }
 
 /* download button */
@@ -59,21 +64,21 @@
 
 .gameHeroImage {
     position: relative;
-    height: 100vh;
+    height: 85vh;
     width: 100%;
 }
 
-.downloadMonoHero {
-    height: 728px;
+.downloadMonoHero{
+    height: 100%;
     width: 100%;
     position: absolute;
     z-index: 0;
 }
 
 .captionGame {
-    text-align: center;
-    left: 6vh;
+    text-align: justify;
     top: 40vh;
+    left: 4vh;
     color: white;
     position: absolute;
     z-index: 1;
@@ -99,7 +104,7 @@
 
 .heroBtn:nth-child(1) {
     top: 70vh;
-    left: 8vh;
+    left: 4vh;
     position: absolute;
     z-index: 1;
     padding: 24px 38px;
