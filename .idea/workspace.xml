@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f760fb76-76ef-49c7-82dc-1a2535b94285" name="Changes" comment="Fixed footer">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3c4ebd76-f634-4164-b330-1b53039a2407.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3c4ebd76-f634-4164-b330-1b53039a2407.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7110bfcd-a997-42d0-8318-c3b4fdbf3c21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7110bfcd-a997-42d0-8318-c3b4fdbf3c21.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/screenshots/game/monoMan3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/screenshots/game/monoMan3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/download.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/download.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/download.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/download.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +111,8 @@
       <workItem from="1683874140949" duration="67453000" />
       <workItem from="1684178551566" duration="10881000" />
       <workItem from="1684307730745" duration="7653000" />
-      <workItem from="1684412244608" duration="1941000" />
+      <workItem from="1684412244608" duration="1997000" />
+      <workItem from="1684492341617" duration="1808000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed footer">
       <created>1684314593885</created>
@@ -129,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684314593885</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fixed footer">
+      <created>1684420206667</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684420206667</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
