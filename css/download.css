@@ -1,16 +1,22 @@
 .downloadSection {
     width: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
 .downloadIns {
-    margin: 4% 4%;
+    width: 100%;
     color: #cbcbcb;
     font-size: 20px;
 }
 
 .downloadContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.downloadBox {
     display: flex;
     width: 40%;
     border-radius: 20px;
@@ -19,8 +25,6 @@
 
 /* download button */
 .download-btn {
-    margin: 2% 5%;
-    padding: 25px 30px;
     background-color: #e16565;
     color: whitesmoke;
     outline: none;
