@@ -110,13 +110,16 @@ a {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #93F5EC;
+    background: -webkit-linear-gradient(300deg, #93F5EC 20%, #A77BF3 70%);
     border-radius: 10px;
+
+
+
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #6c5ce7;
+    background: -webkit-linear-gradient(300deg, #93F5EC 0%, #A77BF3  30%);
 }
 
 /*display property of the hamburger menu to block when the screen is smaller than or equal to 800px*/
