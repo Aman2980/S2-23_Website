@@ -18,6 +18,17 @@
     }
 }
 
+.instructionText {
+    color: #ADBAC7;
+    font-size: 1.6rem;
+    font-weight: normal;
+    text-align: center;
+    width: 100%;
+    margin: 40px auto;
+    transition: all 0.3s;
+}
+
+
 form {
     width: 50%;
     margin: 200px 25%;
