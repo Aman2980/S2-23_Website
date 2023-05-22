@@ -100,7 +100,7 @@ a {
 }
 
 /*display property of the hamburger menu to block when the screen is smaller than or equal to 800px*/
-@media (min-width: 390px) {
+@media (max-width: 800px) {
     .hamburger {
         display: block;
     }
@@ -176,7 +176,7 @@ footer {
     transition: all 0.3s;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 600px) {
     .heading {
         margin-top: 90px;
         font-size: 3rem;
