@@ -3,7 +3,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 4rem;
-    margin-top: 4%;
+    margin-top: 80px;
     text-align: center;
     width: 100%;
     transition: all 0.3s;
@@ -12,61 +12,52 @@
 
 @media screen and (max-width: 600px) {
     .headingWelcome {
-        margin-top: 10%;
+        margin-top: 90px;
         font-size: 3rem;
         transition: all 0.3s;
     }
 }
 
-.table{
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-    width: 95%;
-    max-width: 1200px;
-    margin: 10% auto;
+form {
+    width: 40%;
+    margin: 200px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
 }
 
-/* styles the entire table */
-table{
-    width:100%;
-    table-layout: fixed;
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-
+label {
+    color: white;
+    font-weight: bold;
 }
 
-/* styles the heading inside the table */
-thead{
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-    background: -webkit-linear-gradient(300deg, #93F5EC 20%, #A77BF3 70%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
+form input {
+    background: rgba(255, 255, 255, 0.19);
+    width: 30%;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
 }
 
 
-.tbl-content{
-    height:218px;
-    overflow-x:auto;
-    margin-top: 0;
-
-}
-
-th{
-    padding: 24px 15px;
-    text-align: center;
-    font-weight: 500;
+#score-comparison{
+    border-radius: 5px;
     font-size: 20px;
+    background-color: #3e8bb7;
     color: #fff;
-    text-transform: uppercase;
-
-}
-/* styles the data cells */
-td{
-    padding: 17px;
-    text-align: center;
-    font-weight: 450;
-    font-size: 18px;
-    color: #fff;
-    border-bottom: solid 1px rgba(255,255,255,0.4);
 }
 
+button[type="submit"] {
+    display: block;
+    width: 20%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3e8bb7;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
 

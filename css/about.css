@@ -5,7 +5,7 @@
     text-align: justify;
     text-justify: inter-character;
     width: 80%;
-    margin: 5% auto;
+    margin: 40px auto;
     transition: all 0.3s;
 }
 
@@ -18,7 +18,7 @@
 .heading-below {
     color: #ADBAC7;
     font-size: 3rem;
-    margin-top: 1.5%;
+    margin-top: 20px;
     text-align: center;
     width: 100%;
     transition: all 0.3s;
