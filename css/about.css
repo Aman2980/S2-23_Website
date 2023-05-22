@@ -30,8 +30,9 @@
     justify-content: center;
     margin-top: 8%;
     padding: 0 2rem;
-    width: 95%;
+    width: 93.5%;
     height: 100%;
+    max-width: 100%;
 }
 
 .grid {

@@ -99,6 +99,28 @@ a {
     background-color: white;
 }
 
+/*Custom scrollbar*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #93F5EC;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #6c5ce7;
+}
+
 /*display property of the hamburger menu to block when the screen is smaller than or equal to 800px*/
 @media (max-width: 800px) {
     .hamburger {

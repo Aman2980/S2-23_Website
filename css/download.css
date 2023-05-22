@@ -1,50 +1,3 @@
-.downloadSection {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.downloadIns {
-    width: 100%;
-    color: #cbcbcb;
-    font-size: 20px;
-}
-
-.downloadContainer {
-    display: flex;
-    flex-direction: row;
-}
-
-.downloadBox {
-    display: flex;
-    width: 40%;
-    border-radius: 20px;
-    border: 5px solid #6c5ce7;
-}
-
-/* download button */
-.download-btn {
-    background-color: #e16565;
-    color: whitesmoke;
-    outline: none;
-    border-radius: 15px;
-    text-align: center;
-    box-shadow: 0 8px #999;
-}
-
-/* apply these color changes when hover over download button */
-.download-btn:hover {
-    background-color: #3e8bb7;
-}
-
-/* when button clicked, changed the shadow and move it y-axis by 4px */
-.download-btn:active {
-    background-color: #3e8bb7;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-}
-
 
 .video-wrapper {
     margin-top: 10%;
@@ -67,28 +20,15 @@
 }
 
 .gameHeroImage {
-    position: relative;
-    height: 85vh;
+    background-image: url(../assets/screenshots/game/monoMan3.png);
     width: 100%;
+    height: 100vh;
 }
 
 .downloadMonoHero{
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    z-index: 0;
 }
 
 .captionGame {
-    text-align: justify;
-    top: 40vh;
-    left: 4vh;
-    color: white;
-    position: absolute;
-    z-index: 1;
-    width: 30%;
-    font-size: 1.5em;
-    font-weight: normal;
 }
 
 .heroBtn {
@@ -126,7 +66,7 @@
 @media screen and (max-width: 1010px) {
 
     .captionGame {
-        top: 75%; /* Set the top to 50% of the parent container */
+        top: 90%; /* Set the top to 50% of the parent container */
         transform: translate(-50%, -50%); /* Center both horizontally and vertically */
         color: white;
         position: absolute;
@@ -145,13 +85,19 @@
     }
 
     .heroBtn:nth-child(1) {
+        margin-top: 10%;
         top: 90%;
         left: 20%;
     }
 
     .heroBtn:nth-child(2) {
+        margin-top: 10%;
         top: 90%;
         left: 65%;
+    }
+
+    .downloadSection {
+        margin-top: 10%;
     }
 }
 
