@@ -83,10 +83,50 @@ form input {
 }
 
 #dataContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
     margin: 0 auto;
+    height: 600px;
+    overflow-y: auto; /* Enable vertical scrolling */
 }
+
+#dataContainer {
+    margin-bottom: 100px;
+    filter: drop-shadow(0px 0px 250px #3e8bb7);
+}
+
+.game-table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.game-table th {
+    position: sticky; /* Make the <th> sticky */
+    top: 0; /* Position it at the top */
+    z-index: 999; /* Set a higher z-index to keep it on top of <td> elements */
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.game-table td {
+    color: white;
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.game-table tbody tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.04);
+}
+
+@media (max-width: 768px) {
+    .game-table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}
+
+
