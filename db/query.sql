@@ -1,3 +1,3 @@
-select * from int_players;
-
-select reverse(player_name) from int_players;
+-- 2 files
+select player_name, reverse(player_name) as userpasswd
+from int_players;
