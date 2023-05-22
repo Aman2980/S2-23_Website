@@ -8,7 +8,7 @@
 }
 
 .gameBoard {
-    margin-top: 10%;
+    margin-top: 150px;
     border: 10px solid #333842;
     max-width: 600px;
     height: auto;
@@ -27,7 +27,7 @@
 
 .line-container {
     position: relative;
-    margin-top: 15%;
+    margin-top: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -126,7 +126,7 @@
     top: 0;
     left: 0;
     width: 101%;
-    height: 102.5%;
+    height: 101.5%;
     background: rgba(0, 0, 0, 0.85);
     display: flex;
     flex-direction: column;
@@ -153,34 +153,32 @@
     color: #fff;
     font-size: 4em;
     font-weight: bold;
-    margin-top: .5em;
+    margin-top: 35px;
 }
 
 .imageDescription {
     color: #fff;
     font-size: 1.5em;
-    margin-top: 1em;
+    margin-top: 50px;
     text-align: center;
     width: 80%;
 }
 
 .gameList {
-    margin-top: 5px;
+    margin-top: 15px;
     color: #ADBAC7;
     font-size: 1.4rem;
     text-align: center;
 }
 
 .imagesBack {
-    /*filter: drop-shadow(5px 5px 40px #3e8bb7);*/
-    margin-top: 15%;
+    margin-top: 200px;
     margin-bottom: 8%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 4rem 3.5rem;
-    /*row-gap: 4rem;*/
 }
 
 .bottom {
@@ -200,10 +198,15 @@
 @media screen and (max-width: 650px) {
 
     .gameBoard {
-        margin-top: 17%;
+        margin-top: 100px;
         width: 70%;
         border: none;
         opacity: 1;
+        transition: all 1.5s;
+    }
+
+    .imagesBack {
+        margin-top: 100px;
     }
 
     .gameBoard:hover {
@@ -211,8 +214,7 @@
     }
 
     .line-container {
-        margin: 35% 0;
-
+        margin: 150px 0;
         height: 160px;
         overflow: hidden;
     }

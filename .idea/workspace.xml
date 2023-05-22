@@ -18,6 +18,7 @@
       <change beforePath="$PROJECT_DIR$/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/download.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/download.html" afterDir="false" />
     </list>
+    <list default="true" id="f760fb76-76ef-49c7-82dc-1a2535b94285" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,7 +129,7 @@
       <workItem from="1684740427458" duration="4246000" />
       <workItem from="1684749469173" duration="932000" />
       <workItem from="1684587923327" duration="172000" />
-      <workItem from="1684738116406" duration="3986000" />
+      <workItem from="1684738116406" duration="15261000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed footer">
       <created>1684314593885</created>
