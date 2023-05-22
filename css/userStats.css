@@ -19,13 +19,14 @@
 }
 
 form {
-    width: 100%;
-    margin: 200px 0;
+    width: 50%;
+    margin: 200px 25%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
+    border: 5px ridge white;
 }
 
 
@@ -51,7 +52,7 @@ form input {
     color: #fff;
 }
 
-button[type="submit"] {
+.submitStats {
     display: block;
     width: 15%;
     padding: 10px;
@@ -64,7 +65,7 @@ button[type="submit"] {
     cursor: pointer;
 }
 
-button[type="submit"]:hover{
+.submitStats:hover{
     background-color: #93F5EC;
     color: #A77BF3;
     cursor: pointer;
