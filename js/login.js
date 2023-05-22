@@ -1,3 +1,5 @@
+import {gamesJson} from "../db/db.js";
+
 document.addEventListener('DOMContentLoaded', function () {
     const form = document.querySelector('form');
     form.addEventListener('submit', handleSubmit);
@@ -22,13 +24,13 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-
 function handleSubmit(event) {
     event.preventDefault(); // prevent form submission
     const usernameInput = document.querySelector('#username');
     const passwordInput = document.querySelector('#password');
     const username = usernameInput.value;
     const password = passwordInput.value;
+    const matchedUser = gamesJson.find(user => user.player_name === username && user.player_name.split('').reverse().join('') === password);
 
     // Check if the username and password are not empty
     if (!username || !password) {
@@ -36,8 +38,7 @@ function handleSubmit(event) {
         return;
     }
 
-    // Check if the password is the reverse of the username
-    if (password !== reverseString(username)) {
+    if (!matchedUser) {
         displayPasswordError();
     } else {
         handleSuccessfulLogin(username, passwordInput);
@@ -62,6 +63,7 @@ function displayPasswordError() {
     errorMessage.style.marginTop = '5px';
     console.log('error');
 }
+
 function handleSuccessfulLogin(username, passwordInput) {
     const legend = document.querySelector('legend h2');
     if (legend) {
@@ -72,7 +74,7 @@ function handleSuccessfulLogin(username, passwordInput) {
     sessionStorage.setItem('username', username);
     removeErrorMessage();
     const monoMom = document.querySelector('.monoMan');
-    monoMom.style.visibility='visible';
+    monoMom.style.visibility = 'visible';
     showLoadingIndicator();
     const logoutButton = document.createElement('button');
     logoutButton.textContent = 'Logout';
