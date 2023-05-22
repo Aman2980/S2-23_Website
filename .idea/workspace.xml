@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f760fb76-76ef-49c7-82dc-1a2535b94285" name="Changes" comment="background-image">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f760fb76-76ef-49c7-82dc-1a2535b94285" name="Changes" comment="Download page">
       <change beforePath="$PROJECT_DIR$/css/download.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/download.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/download.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/download.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684759199289</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Download page">
+      <created>1684762658485</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684762658485</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +181,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixed footer" />
     <MESSAGE value="background-image" />
-    <option name="LAST_COMMIT_MESSAGE" value="background-image" />
+    <MESSAGE value="Download page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Download page" />
   </component>
 </project>

@@ -77,10 +77,9 @@ body {
 }
 
 .video-wrapper {
-    margin-top: 10%;
+    margin: 10% 0;
     width: 100%;
     float: left;
-    height: 100vh;
 }
 
 .gameVideo {
@@ -137,87 +136,6 @@ footer {
     position: relative;
     width: 100%;
     float: left;
-}
-
-
-@media screen and (max-width: 1010px) {
-
-    .captionGame {
-        top: 90%; /* Set the top to 50% of the parent container */
-        transform: translate(-50%, -50%); /* Center both horizontally and vertically */
-        color: white;
-        position: absolute;
-        z-index: 1;
-        width: 80%;
-        font-size: 1.2em;
-        font-weight: normal;
-        text-align: center;
-        left: 50%;
-    }
-
-
-    .downloadMonoHero {
-        height: auto;
-        width: 100%;
-    }
-
-    .descrBtn:nth-child(1) {
-        margin-top: 10%;
-        top: 90%;
-        left: 20%;
-    }
-
-    .descrBtn:nth-child(2) {
-        margin-top: 10%;
-        top: 90%;
-        left: 65%;
-    }
-
-    .downloadSection {
-        margin-top: 10%;
-    }
-}
-
-@media screen and (max-width: 850px) {
-    .captionGame {
-        top: 65%;
-    }
-
-    .downloadMonoHero {
-        height: auto;
-        width: 100%;
-    }
-
-    .descrBtn:nth-child(1) {
-        top: 75%;
-        left: 18%;
-    }
-
-    .descrBtn:nth-child(2) {
-        top: 75%;
-        left: 60%;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .captionGame {
-        top: 48%;
-    }
-
-    .downloadMonoHero {
-        height: auto;
-        width: 100%;
-    }
-
-    .descrBtn:nth-child(1) {
-        top: 65%;
-        left: 8%;
-    }
-
-    .descrBtn:nth-child(2) {
-        top: 65%;
-        left: 53%;
-    }
 }
 
 
