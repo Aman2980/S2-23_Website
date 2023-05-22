@@ -100,7 +100,7 @@ a {
 }
 
 /*display property of the hamburger menu to block when the screen is smaller than or equal to 800px*/
-@media (max-width: 390px) {
+@media (min-width: 390px) {
     .hamburger {
         display: block;
     }
