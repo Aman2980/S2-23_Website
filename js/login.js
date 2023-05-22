@@ -30,7 +30,7 @@ function handleSubmit(event) {
     const passwordInput = document.querySelector('#password');
     const username = usernameInput.value;
     const password = passwordInput.value;
-    const matchedUser = gamesJson.find(user => user.player_name === username && user.player_name.split('').reverse().join('') === password);
+    const matchedUser = gamesJson.find(user => user.player_name === username && reverseString(user.player_name) === password);
 
     // Check if the username and password are not empty
     if (!username || !password) {
@@ -81,10 +81,10 @@ function handleSuccessfulLogin(username, passwordInput) {
     logoutButton.addEventListener('click', handleLogout);
     const loginButton = document.querySelector('button[type="submit"]');
     loginButton.replaceWith(logoutButton);
-    setTimeout(() => {
-        hideLoadingIndicator();
-        window.location.href = '../html/Stats.html';
-    }, 2000);
+        setTimeout(() => {
+            hideLoadingIndicator();
+            window.location.href = '../html/Stats.html';
+        }, 2000);
 }
 
 
@@ -95,10 +95,6 @@ function handleLogout() {
         showLoadingIndicator();
         window.location.href = '../index.html';
     }, 2000);
-    // const formLabel = document.querySelectorAll('.form-group label');
-    // formLabel.style.visibility='visible';
-    // const formInput = document.querySelectorAll('.form-group input');
-    // formInput.style.visibility='visible';
 }
 
 function removeErrorMessage() {
