@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f760fb76-76ef-49c7-82dc-1a2535b94285" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3c4ebd76-f634-4164-b330-1b53039a2407.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7110bfcd-a997-42d0-8318-c3b4fdbf3c21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7110bfcd-a997-42d0-8318-c3b4fdbf3c21.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7110bfcd-a997-42d0-8318-c3b4fdbf3c21/storage_v2/_src_/database/game.8kswAA/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7110bfcd-a997-42d0-8318-c3b4fdbf3c21/storage_v2/_src_/database/game.8kswAA/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7110bfcd-a997-42d0-8318-c3b4fdbf3c21/storage_v2/_src_/database/game.8kswAA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7110bfcd-a997-42d0-8318-c3b4fdbf3c21/storage_v2/_src_/database/game.8kswAA/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7110bfcd-a997-42d0-8318-c3b4fdbf3c21/storage_v2/_src_/database/game.8kswAA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7110bfcd-a997-42d0-8318-c3b4fdbf3c21/storage_v2/_src_/database/game.8kswAA/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/query.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/query.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/download.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/download.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/download.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/download.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/dynamicCode.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/dynamicCode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/login.js" afterDir="false" />
     </list>
-    <list default="true" id="f760fb76-76ef-49c7-82dc-1a2535b94285" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

@@ -28,7 +28,7 @@ function addButtonSoundAnimation() {
 }
 
 function addGameVideoHandlers() {
-    const watchTrailerBtn = document.querySelector('.heroBtn:nth-child(2)');
+    const watchTrailerBtn = document.querySelector('.descrBtn:nth-child(2)');
     const gameVideo = document.getElementById('game-video');
     const gameVideoSection = document.querySelector('.gameVideo');
 
@@ -44,7 +44,7 @@ function addGameVideoHandlers() {
 }
 
 function addLearnMoreHandler() {
-    const learnMoreBtn = document.querySelector('.heroBtn');
+    const learnMoreBtn = document.querySelector('.descrBtn');
     learnMoreBtn.addEventListener('click', function () {
         window.location.href = 'game.html';
     });
