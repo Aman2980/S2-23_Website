@@ -1,0 +1,19 @@
+Index: css/userStats.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.headingWelcome {\n    background: -webkit-linear-gradient(300deg, #93F5EC 20%, #A77BF3 70%);\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n    font-size: 4rem;\n    margin-top: 80px;\n    text-align: center;\n    width: 100%;\n    transition: all 0.3s;\n}\n\n\n@media screen and (max-width: 600px) {\n    .headingWelcome {\n        margin-top: 90px;\n        font-size: 3rem;\n        transition: all 0.3s;\n    }\n}\n\n.instructionText {\n    color: #ADBAC7;\n    font-size: 1.6rem;\n    font-weight: normal;\n    text-align: center;\n    width: 100%;\n    margin: 40px auto;\n    transition: all 0.3s;\n}\n\n\nform {\n    width: 50%;\n    margin: 200px 25%;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    gap: 20px;\n    border: 5px ridge white;\n}\n\n\n\nlabel {\n    color: white;\n    font-weight: bold;\n}\n\nform input {\n    background: rgba(255, 255, 255, 0.19);\n    width: 30%;\n    padding: 10px;\n    border-radius: 20px;\n    color: white;\n}\n\n\n#score-comparison{\n    border-radius: 5px;\n    font-size: 20px;\n    background-color: #3e8bb7;\n    color: #fff;\n}\n\n.submitStats {\n    display: block;\n    width: 15%;\n    padding: 10px;\n    border-radius: 5px;\n    border: none;\n    background-color: #A77BF3;\n    color: #93F5EC;\n    font-size: 1em;\n    font-weight: bolder;\n    cursor: pointer;\n}\n\n.submitStats:hover{\n    background-color: #93F5EC;\n    color: #A77BF3;\n    cursor: pointer;\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/css/userStats.css b/css/userStats.css
+--- a/css/userStats.css	(revision 6cdd913141099ef28fa0d6b13fe8a68ed12582a3)
++++ b/css/userStats.css	(date 1684762723211)
+@@ -26,7 +26,7 @@
+     width: 100%;
+     margin: 40px auto;
+     transition: all 0.3s;
+-}
++}-m
+ 
+ 
+ form {
