@@ -39,7 +39,7 @@ body {
     margin-top: 100px;
     width: 70%;
     margin-left: 15%;
-    font-size: 200%;
+    font-size: 2em;
 }
 
 .descrBtn {
@@ -55,6 +55,7 @@ body {
     background-color: #93F5EC;
     color: #A77BF3;
     cursor: pointer;
+    font-weight: normal;
 }
 
 .descrBtn:nth-child(1) {
@@ -97,16 +98,17 @@ body {
     width: 100%;
     margin-top: 250px;
     text-align: center;
-    font-size: 300%;
+    font-size: 3em;
     background: -webkit-linear-gradient(300deg, #93F5EC 20%, #A77BF3 70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .text{
-    font-size: 150%;
-    margin: 0 0 10% 0;
-    color: white;
+    font-size: 2em;
+    margin: 0 0 40px 0;
+    color: #ADBAC7;
+    font-weight: normal;
 }
 
 .downloadBox {
@@ -114,7 +116,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
     padding: 5%;
-    border: #A77BF3 5px solid;
+    border: #A77BF3 3px solid;
     border-radius: 20px;
     width: 30%;
 }
