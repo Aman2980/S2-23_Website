@@ -57,9 +57,8 @@ document.addEventListener('DOMContentLoaded', function () {
         const filterValue = parseInt(gameIdInput.value);
 
         // Clear the table body
-        while (tbody.firstChild) {
-            tbody.removeChild(tbody.firstChild);
-        }
+        tbody.innerHTML = '';
+
 
         // Filter the games based on the input value
         const filteredGames = gamesJson.filter(game => game.game_id === filterValue);
